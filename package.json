@@ -1,0 +1,26 @@
+{
+  "name": "olifarhaan",
+  "version": "1.0.0",
+  "description": "\"Personal Portfolio of Mohammad Ali Farhan\"",
+  "type": "module",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad Ali Farhan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.33",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.4",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.21.2"
+  }
+}

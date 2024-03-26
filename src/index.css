@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* For the dot background */
+  background-image: radial-gradient(#3a3a3a 1px, transparent 0);
+  background-size: 25px 25px;
+
+  background-color: #161616;
+  color: #c0c1c1;
+  font-family: "Outfit", sans-serif;
+}
+
+.btn {
+  font-size: 17px;
+  padding: 15px 40px 15px 40px;
+  border: 2px solid #252524;
+  border-radius: 5px;
+  background: #1b1b1a;
+  color: #7a7a7a;
+}
+
+.grad {
+  background: -webkit-linear-gradient(left, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5px; /* Add some padding to the bottom */
+}
+
+.mask-corner {
+  mask-image: linear-gradient(
+    to right,
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 10%,
+    hsl(0 0% 0% / 1) 90%,
+    hsl(0 0% 0% / 0)
+  );
+}
